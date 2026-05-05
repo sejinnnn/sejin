@@ -3,14 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>자살예방법 — 세계일보 탐사보도팀</title>
+<title>자살예방법 4조, 국가의 책무 — 세계일보 탐사보도팀</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Noto+Serif+KR:wght@300;400;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
   :root {
     --black: #0e0e0e;
     --off-white: #ffffff;
-    --warm-gray: #009e2f;
+    --warm-green: #009e2f;
     --accent: #009e2f;
     --text: #1a1a1a;
     --muted: #6b6560;
@@ -76,7 +76,7 @@
   .hero-title {
     font-family: 'Noto Serif KR', serif;
     font-size: clamp(3.6rem, 9vw, 8rem);
-    font-weight: 600;
+    font-weight: 450;
     color: #fff;
     line-height: 1.05;
     margin-bottom: 0.8rem;
@@ -396,7 +396,7 @@
   <div class="hero-bg"></div>
   <div class="hero-content">
     <div class="hero-label">세계일보 탐사보도팀</div>
-    <h1 class="hero-title">자살예방법</h1>
+    <h1 class="hero-title">자살예방법 제4조, 국가의 책무</h1>
     <p class="hero-subtitle">법의 그물 밖에서 — 제도가 놓친 죽음들</p>
   </div>
   <div class="scroll-indicator">
@@ -478,7 +478,7 @@
 <section class="credits-section" id="credits">
   <div class="credits-inner">
     <div class="section-label">— Team</div>
-    <h2>제작한 이들</h2>
+    <h2>제작한 사람들</h2>
 
     <!-- ✏️ 취재 -->
     <div class="credits-role-group">
@@ -501,18 +501,7 @@
 
     <!-- ✏️ 편집 -->
     <div class="credits-role-group">
-      <div class="credits-role-label">편집</div>
-      <div class="credits-grid">
-        <div class="credit-item">
-          <div class="credit-name">이름 입력</div>
-          <div class="credit-email"></div>
-        </div>
-      </div>
-    </div>
-
-    <!-- ✏️ 미술 -->
-    <div class="credits-role-group">
-      <div class="credits-role-label">미술</div>
+      <div class="credits-role-label">편집·미술</div>
       <div class="credits-grid">
         <div class="credit-item">
           <div class="credit-name">이름 입력</div>
@@ -524,6 +513,17 @@
     <!-- ✏️ 사진 -->
     <div class="credits-role-group">
       <div class="credits-role-label">사진</div>
+      <div class="credits-grid">
+        <div class="credit-item">
+          <div class="credit-name">이름 입력</div>
+          <div class="credit-email"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ✏️ 웹페이지 제작 -->
+    <div class="credits-role-group">
+      <div class="credits-role-label">웹페이지 제작</div>
       <div class="credits-grid">
         <div class="credit-item">
           <div class="credit-name">이름 입력</div>
