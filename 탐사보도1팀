@@ -274,10 +274,21 @@
   .card:hover .card-link-label { opacity: 1; transform: translateY(0); }
   .card-link-label::after { content: '→'; font-size: 0.78rem; }
 
-  .img-1 { background: linear-gradient(135deg, #1c2b1c 0%, #0d180d 100%); }
-  .img-2 { background: linear-gradient(135deg, #1a1e2e 0%, #0d1020 100%); }
-  .img-3 { background: linear-gradient(135deg, #2a1a18 0%, #1a0f0e 100%); }
-  .img-4 { background: linear-gradient(135deg, #1a1a1a 0%, #0d0d0d 100%); }
+.img-1 {
+  background-image: url('./images/thumb1.jpg');
+}
+
+.img-2 {
+  background-image: url('./images/thumb2.jpeg');
+}
+
+.img-3 {
+  background-image: url('./images/thumb3.jpg');
+}
+
+.img-4 {
+  background-image: url('./images/thumb4.jpg');
+}
 
   /* ─── CREDITS ─── */
   .credits-section {
