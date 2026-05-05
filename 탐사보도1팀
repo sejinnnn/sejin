@@ -61,14 +61,14 @@
 
   .crisis-icon::after {
     content: '※';
-    font-size: 0.55rem;
+    font-size: 0.7rem;
     color: var(--accent);
     line-height: 1;
   }
 
   .crisis-text {
     font-family: 'Noto Serif KR', serif;
-    font-size: 0.72rem;
+    font-size: 0.9rem;
     line-height: 1.65;
     color: rgba(255, 255, 255, 0.75);
     font-weight: 300;
@@ -95,8 +95,8 @@
   .crisis-close:hover { color: rgba(255,255,255,0.7); }
 
   @media (max-width: 640px) {
-    .crisis-bar { padding: 0.8rem 1.2rem; gap: 0.7rem; }
-    .crisis-text { font-size: 0.65rem; }
+    .crisis-bar { padding: 0.95rem 1.2rem; gap: 0.7rem; }
+    .crisis-text { font-size: 0.9rem; }
     .crisis-icon { display: none; }
   }
 
@@ -145,7 +145,7 @@
     font-size: clamp(1rem, 2.2vw, 1.5rem);
     font-weight: 300;
     letter-spacing: 0.18em;
-    color: rgba(255,255,255,0.82);
+    color: #c8a96e;
     margin-bottom: 1.2rem;
   }
 
@@ -162,7 +162,7 @@
   .hero-subtitle {
     font-family: 'Noto Serif KR', serif;
     font-size: clamp(0.95rem, 1.8vw, 1.2rem);
-    color: rgba(255,255,255,0.55);
+    color:#009e2f;
     font-weight: 300;
     letter-spacing: 0.06em;
   }
@@ -213,7 +213,7 @@
 
   .section-label {
     font-family: 'DM Mono', monospace;
-    font-size: 0.68rem;
+    font-size: 0.8rem;
     letter-spacing: 0.24em;
     text-transform: uppercase;
     color: var(--accent);
@@ -383,7 +383,7 @@
 
   .credits-role-label {
     font-family: 'DM Mono', monospace;
-    font-size: 0.65rem;
+    font-size: 0.78rem;
     letter-spacing: 0.22em;
     text-transform: uppercase;
     color: var(--accent);
@@ -473,7 +473,7 @@
   <div class="hero-bg"></div>
   <div class="hero-content">
     <div class="hero-label">세계일보 탐사보도팀</div>
-    <h1 class="hero-title">자살예방법 제4조, 국가의 책무</h1>
+    <h1 class="hero-title">자살예방법 제4조,<br>국가의 책무</h1>
     <p class="hero-subtitle">법의 그물 밖에서 — 제도가 놓친 죽음들</p>
   </div>
   <div class="scroll-indicator">
@@ -575,8 +575,10 @@
       <div class="credits-role-label">편집·미술</div>
       <div class="credits-grid">
         <div class="credit-item">
-          <div class="credit-name">이름 입력</div>
-          <div class="credit-email"></div>
+         <div class="credit-name">최미숙 기자</div>
+        </div>
+        <div class="credit-item">
+          <div class="credit-name">윤대영 기자</div>
         </div>
       </div>
     </div>
@@ -585,8 +587,16 @@
       <div class="credits-role-label">사진</div>
       <div class="credits-grid">
         <div class="credit-item">
-          <div class="credit-name">이름 입력</div>
-          <div class="credit-email"></div>
+          <div class="credit-name">이재문 기자</div>
+        </div>
+        <div class="credit-item">
+          <div class="credit-name">남정탁 기자</div>
+        </div>
+        <div class="credit-item">
+          <div class="credit-name">최상수 기자</div>
+        </div>
+           <div class="credit-item">
+          <div class="credit-name">유희태 기자</div>
         </div>
       </div>
     </div>
@@ -595,8 +605,10 @@
       <div class="credits-role-label">웹페이지 제작</div>
       <div class="credits-grid">
         <div class="credit-item">
-          <div class="credit-name">이름 입력</div>
-          <div class="credit-email"></div>
+          <div class="credit-name">정세진 기자</div>
+          </div>
+        <div class="credit-item">
+          <div class="credit-name">양혜정 기자</div>
         </div>
       </div>
     </div>
